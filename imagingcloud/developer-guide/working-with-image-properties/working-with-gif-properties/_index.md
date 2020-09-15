@@ -11,5 +11,5 @@ GIF APIs allow to update parameters of existing GIF image such as index of the b
 
 {{% /alert %}} 
 ###### **This section includes the following topics:**
-- [Update GIF Image Properties Without Storage](/update-gif-image-properties-without-storage-html/)
-- [Update GIF Image Properties](/update-gif-image-properties-html/)
+- [Update GIF Image Properties Without Storage](/update-gif-image-properties-without-storage/)
+- [Update GIF Image Properties](/update-gif-image-properties/)

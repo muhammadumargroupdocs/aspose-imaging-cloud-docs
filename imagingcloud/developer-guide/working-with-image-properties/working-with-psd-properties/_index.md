@@ -11,5 +11,5 @@ PSD Resource allows manipulating PSD format specific properties such as count of
 
 {{% /alert %}} 
 ###### **This section includes the following topics:**
-- [Update PSD Image Properties](/update-psd-image-properties-html/)
-- [Update PSD Image Properties Without Storage](/update-psd-image-properties-without-storage-html/)
+- [Update PSD Image Properties](/update-psd-image-properties/)
+- [Update PSD Image Properties Without Storage](/update-psd-image-properties-without-storage/)

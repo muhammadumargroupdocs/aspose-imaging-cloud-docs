@@ -11,5 +11,5 @@ TIFF Resource allows to manipulate TIFF format specific properties such as comp
 
 {{% /alert %}} 
 ###### **This section includes the following topics:**
-- [Update TIFF Image Properties Without Storage](/update-tiff-image-properties-without-storage-html/)
-- [Update TIFF Image Properties](/update-tiff-image-properties-html/)
+- [Update TIFF Image Properties Without Storage](/update-tiff-image-properties-without-storage/)
+- [Update TIFF Image Properties](/update-tiff-image-properties/)
