@@ -19,31 +19,21 @@ This article explain how to extract features from image without adding to search
 ```java
 
 // First get Access Token
-
 // Get App Key and App SID from https://dashboard.aspose.cloud/
 
 curl -v "https://api.aspose.cloud/oauth2/token" \
-
 -X POST \
-
 -d 'grant\_type=client\_credentials&client\_id=xxxx&client\_secret=xxxx' \
-
 -H "Content-Type: application/x-www-form-urlencoded" \
-
 -H "Accept: application/json"
 
 // cURL example to extract features from image without adding to search context
 
 curl -v "https://api.aspose.cloud/v2/imaging/ai/imageSearch/76972fff-461b-42d2-8bf4-814a729943bf/image2features?imageId=aspose.jpg" \
-
 -X GET \
-
 -H "Content-Type: application/json" \
-
 -H "Accept: application/json" \
-
 -H "Content-Length: 0" \
-
 -H "Authorization: Bearer <access\_token>" 
 
 ```

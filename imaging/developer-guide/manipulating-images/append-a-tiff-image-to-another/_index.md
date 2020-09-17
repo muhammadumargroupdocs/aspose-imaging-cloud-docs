@@ -21,27 +21,18 @@ This article explains how to append a TIFF image to another TIFF image. Before c
 // Get App Key and App SID from https://dashboard.aspose.cloud/
 
 curl -v "https://api.aspose.cloud/connect/token" \
-
 -X POST \
-
 -d 'grant\_type=client\_credentials&client\_id=xxxx&client\_secret=xxxx' \
-
 -H "Content-Type: application/x-www-form-urlencoded" \
-
 -H "Accept: application/json"
 
 // cURL example to append a TIFF image to another TIFF image
 
 curl -v "https://api.aspose.cloud/v3/imaging/tiff/Sample.tiff/appendTiff?appendFile=Demo.tif" \
-
 -X POST \
-
 -H "Content-Type: application/json" \
-
 -H "Accept: application/json" \
-
 -H "Content-Length: 0" \
-
 -H "Authorization: Bearer <jwt token>"
 
 ```

@@ -32,27 +32,18 @@ With [Swagger UI](https://apireference.aspose.cloud/imaging/#/Emf) you can callÂ
 // Get App Key and App SID from https://dashboard.aspose.cloud/
 
 curl -v "https://api.aspose.cloud/connect/token" \
-
 -X POST \
-
 -d 'grant\_type=client\_credentials&client\_id=xxxx&client\_secret=xxxx' \
-
 -H "Content-Type: application/x-www-form-urlencoded" \
-
 -H "Accept: application/json"
 
 // cURL example to rasterize EMF image to PNG
 
 curl -v "https://api.aspose.cloud/v3/imaging/Sample.emf/emf?bkColor=gray&pageWidth=300&pageHeight=300&borderX=50&borderY=50&format=bmp" \
-
 -X GET \
-
 -H "Content-Type: application/json" \
-
 -H "Accept: multipart/form-data" \
-
 -H "Authorization: Bearer <jwt token>" \
-
 -o Sample\_out.bmp
 
 ```
@@ -84,29 +75,19 @@ curl -v "https://api.aspose.cloud/v3/imaging/Sample.emf/emf?bkColor=gray&pageWid
 // Get App Key and App SID from https://dashboard.aspose.cloud/
 
 curl -v "https://api.aspose.cloud/connect/token" \
-
 -X POST \
-
 -d 'grant\_type=client\_credentials&client\_id=xxxx&client\_secret=xxxx' \
-
 -H "Content-Type: application/x-www-form-urlencoded" \
-
 -H "Accept: application/json"
 
 // cURL example to update parameters of existing PNG image
 
 curl -v "https://api.aspose.cloud/v3/imaging/emf?bkColor=gray&pageWidth=300&pageHeight=300&borderX=50&borderY=50&format=bmp" \
-
 -X POST \
-
 -T Sample.emf \
-
 -H "Content-Type: application/json" \
-
 -H "Accept: multipart/form-data" \
-
 -H "Authorization: Bearer <jwt token>" \
-
 -o Sample\_out.bmp
 
 ```

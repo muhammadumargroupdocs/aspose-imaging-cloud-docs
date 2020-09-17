@@ -19,31 +19,21 @@ This article explain how to delete search context by ID. The API URL is:
 ```java
 
 // First get Access Token
-
 // Get App Key and App SID from https://dashboard.aspose.cloud/
 
 curl -v "https://api.aspose.cloud/oauth2/token" \
-
 -X POST \
-
 -d 'grant\_type=client\_credentials&client\_id=xxxx&client\_secret=xxxx' \
-
 -H "Content-Type: application/x-www-form-urlencoded" \
-
 -H "Accept: application/json"
 
 // cURL example to delete search context by ID
 
 curl -v "https://api.aspose.cloud/v2/imaging/ai/imageSearch/76901fe6-1427-4112-9fa2-8261cca7524a" \
-
 -X DELETE \
-
 -H "Content-Type: application/json" \
-
 -H "Accept: application/json" \
-
 -H "Content-Length: 0" \
-
 -H "Authorization: Bearer <access\_token>"
 
 ```

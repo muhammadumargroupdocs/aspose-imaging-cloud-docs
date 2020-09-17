@@ -23,27 +23,18 @@ The API takes an image name as a path in the URL, therefore, you first need to u
 // Get App Key and App SID from https://dashboard.aspose.cloud/
 
 curl -v "https://api.aspose.cloud/connect/token" \
-
 -X POST \
-
 -d 'grant\_type=client\_credentials&client\_id=xxxx&client\_secret=xxxx' \
-
 -H "Content-Type: application/x-www-form-urlencoded" \
-
 -H "Accept: application/json"
 
 // cURL example to update parameters of existing GIF image
 
 curl -v "https://api.aspose.cloud/v3/imaging/sample.gif/gif?backgroundColorIndex=5&colorResolution=4&hasTrailer=true&interlaced=false&isPaletteSorted=true&pixelAspectRatio=4" \
-
 -X GET \
-
 -H "Content-Type: application/json" \
-
 -H "Accept: multipart/form-data" \
-
 -H "Authorization: Bearer <jwt token>" \
-
 -o sample\_out.gif
 
 ```

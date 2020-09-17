@@ -19,17 +19,12 @@ The API URL is: [GET /imaging/ai/imageSearch/{searchContextId}/findSimilar](http
 ```java
 
 // First get Access Token
-
 // Get App Key and App SID from https://dashboard.aspose.cloud/
 
 curl -v "https://api.aspose.cloud/oauth2/token" \
-
 -X POST \
-
 -d 'grant\_type=client\_credentials&client\_id=xxxx&client\_secret=xxxx' \
-
 -H "Content-Type: application/x-www-form-urlencoded" \
-
 -H "Accept: application/json"
 
 
@@ -37,13 +32,9 @@ curl -v "https://api.aspose.cloud/oauth2/token" \
 // cURL example to find similar images
 
 curl -v "https://api.aspose.cloud/v2/imaging/ai/imageSearch/cc435948-2dc3-4269-9299-052baa314d72/findSimilar?similarityThreshold=90.0&maxCount=5&imageId=aspose-logo.jpg" \
-
 -X GET \
-
 -H "Content-Type: application/json" \
-
 -H "Accept: multipart/form-data" \
-
 -H "Authorization: Bearer <access\_token>"
 
 ```

@@ -19,31 +19,21 @@ This article explain how to update image and image features in search context. T
 ```java
 
 // First get Access Token
-
 // Get App Key and App SID from https://dashboard.aspose.cloud/
 
 curl -v "https://api.aspose.cloud/oauth2/token" \
-
 -X POST \
-
 -d 'grant\_type=client\_credentials&client\_id=xxxx&client\_secret=xxxx' \
-
 -H "Content-Type: application/x-www-form-urlencoded" \
-
 -H "Accept: application/json"
 
 // cURL example to update image in search context
 
 curl -v "https://api.aspose.cloud/v2/imaging/ai/imageSearch/c5354cad-18c1-4af4-9444-69b23d891c67/image?imageId=aspose.jpg" \
-
 -X PUT \
-
 -T aspose.jpg \
-
 -H "Content-Type: application/json" \
-
 -H "Accept: application/json" \
-
 -H "Authorization: Bearer <jwt token>"
 
 ```

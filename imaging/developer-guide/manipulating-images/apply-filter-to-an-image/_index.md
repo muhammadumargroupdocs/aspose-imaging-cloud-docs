@@ -41,29 +41,19 @@ Resource URI
 // Get App Key and App SID from https://dashboard.aspose.cloud/
 
 curl -v "https://api.aspose.cloud/connect/token" \
-
 -X POST \
-
 -d 'grant\_type=client\_credentials&client\_id=xxxx&client\_secret=xxxx' \
-
 -H "Content-Type: application/x-www-form-urlencoded" \
-
 -H "Accept: application/json"
 
 // cURL example applying filters to an image
 
 curl -v "https://api.aspose.cloud/v3/imaging/WaterMark.bmp/filterEffect?format=gif&filterType=GaussianBlur" \
-
 -X PUT \
-
 -H "Content-Type: application/json" \
-
 -H "Accept: application/json" \
-
 -H "Authorization: Bearer " \
-
 -o WaterMark\_out.pdf \
-
 -d '<GaussianBlurFilterOptions>
 
   <Radius>100</Radius>

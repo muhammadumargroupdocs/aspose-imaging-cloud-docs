@@ -32,25 +32,17 @@ With [Swagger UI](https://apireference.aspose.cloud/imaging/#/Frames/GetImageFra
 // Get App Key and App SID from https://dashboard.aspose.cloud/
 
 curl -v "https://api.aspose.cloud/connect/token" \
-
 -X POST \
-
 -d 'grant\_type=client\_credentials&client\_id=xxxx&client\_secret=xxxx' \
-
 -H "Content-Type: application/x-www-form-urlencoded" \
-
 -H "Accept: application/json"
 
 // cURL example to get properties of specific TIFF frame
 
 curl -v "https://api.aspose.cloud/v3/imaging/SampleTiff.tiff/frames/1/properties" \
-
 -X GET \
-
 -H "Content-Type: application/json" \
-
 -H "Accept: application/json" \
-
 -H "Authorization: Bearer <jwt token>"
 
 ```
@@ -1842,27 +1834,18 @@ curl -v "https://api.aspose.cloud/v3/imaging/SampleTiff.tiff/frames/1/properties
 // Get App Key and App SID from https://dashboard.aspose.cloud/
 
 curl -v "https://api.aspose.cloud/connect/token" \
-
 -X POST \
-
 -d 'grant\_type=client\_credentials&client\_id=xxxx&client\_secret=xxxx' \
-
 -H "Content-Type: application/x-www-form-urlencoded" \
-
 -H "Accept: application/json"
 
 // cURL example to get properties of specific TIFF frame
 
 curl -v "https://api.aspose.cloud/v3/imaging/frames/1/properties" \
-
 -X POST \
-
 -T SampleTiff.tiff \
-
 -H "Content-Type: application/json" \
-
 -H "Accept: application/json" \
-
 -H "Authorization: Bearer <jwt token>"
 
 ```

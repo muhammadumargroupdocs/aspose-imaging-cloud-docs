@@ -32,27 +32,18 @@ With [Swagger UI](https://apireference.aspose.cloud/imaging/#/SaveAs) you can 
 // Get App Key and App SID from https://dashboard.aspose.cloud/
 
 curl -v "https://api.aspose.cloud/connect/token" \
-
 -X POST \
-
 -d 'grant\_type=client\_credentials&client\_id=xxxx&client\_secret=xxxx' \
-
 -H "Content-Type: application/x-www-form-urlencoded" \
-
 -H "Accept: application/json"
 
 // cURL example to get frames range from existing image
 
 curl -v "https://api.aspose.cloud/v3/imaging/Sample.tiff/frames/range?startFrameId=1&endFrameId=3" \
-
 -X GET \
-
 -H "Content-Type: application/json" \
-
 -H "Accept: application/json" \
-
 -H "Authorization: Bearer <jwt token>" \
-
 -o Sample\_out.tiff
 
 ```
@@ -84,29 +75,19 @@ curl -v "https://api.aspose.cloud/v3/imaging/Sample.tiff/frames/range?startFrame
 // Get App Key and App SID from https://dashboard.aspose.cloud/
 
 curl -v "https://api.aspose.cloud/connect/token" \
-
 -X POST \
-
 -d 'grant\_type=client\_credentials&client\_id=xxxx&client\_secret=xxxx' \
-
 -H "Content-Type: application/x-www-form-urlencoded" \
-
 -H "Accept: application/json"
 
 // cURL example to get frames range from existing image
 
 curl -v "https://api.aspose.cloud/v3/imaging/frames/range?startFrameId=1&endFrameId=3" \
-
 -X POST \
-
 -T Sample.tiff \
-
 -H "Content-Type: application/json" \
-
 -H "Accept: application/json" \
-
 -H "Authorization: Bearer <jwt token>" \
-
 -o Sample\_out.tiff
 
 ```

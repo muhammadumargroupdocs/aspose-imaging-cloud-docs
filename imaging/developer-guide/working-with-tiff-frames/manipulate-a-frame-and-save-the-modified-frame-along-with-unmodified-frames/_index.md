@@ -23,27 +23,18 @@ With [Swagger UI](https://apireference.aspose.cloud/imaging/#/Frames/GetImageFra
 // Get App Key and App SID from https://dashboard.aspose.cloud/
 
 curl -v "https://api.aspose.cloud/connect/token" \
-
 -X POST \
-
 -d 'grant\_type=client\_credentials&client\_id=xxxx&client\_secret=xxxx' \
-
 -H "Content-Type: application/x-www-form-urlencoded" \
-
 -H "Accept: application/json"
 
 // cURL example to save the modified frame along with unmodified frames
 
 curl -v "https://api.aspose.cloud/v3/imaging/Sample.tiff/frames/0?newWidth=300&newHeight=300&x=10&y=10&rectWidth=200&rectHeight=200&rotateFlipMethod=Rotate90FlipX&saveOtherFrames=true" \
-
 -X GET \
-
 -H "Content-Type: application/json" \
-
 -H "Accept: multipart/form-data" \
-
 -H "Authorization: Bearer <jwt token>" \
-
 -o SingleFrame\_out.tiff
 
 ```

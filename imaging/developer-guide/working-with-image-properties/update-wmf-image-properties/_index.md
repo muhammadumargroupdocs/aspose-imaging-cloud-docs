@@ -32,27 +32,18 @@ With [Swagger UI](https://apireference.aspose.cloud/imaging/#/Wmf) you can callÂ
 // Get App Key and App SID from https://dashboard.aspose.cloud/
 
 curl -v "https://api.aspose.cloud/connect/token" \
-
 -X POST \
-
 -d 'grant\_type=client\_credentials&client\_id=xxxx&client\_secret=xxxx' \
-
 -H "Content-Type: application/x-www-form-urlencoded" \
-
 -H "Accept: application/json"
 
 // cURL example to rasterize WMF image to PNG
 
 curl -v "https://api.aspose.cloud/v3/imaging/input.wmf/wmf?bkColor=gray&pageWidth=300&pageHeight=300&borderX=50&borderY=50&format=gif" \
-
 -X GET \
-
 -H "Content-Type: application/json" \
-
 -H "Accept: multipart/form-data" \
-
 -H "Authorization: Bearer <jwt token>" \
-
 -o input\_out.gif
 
 ```
@@ -84,29 +75,19 @@ curl -v "https://api.aspose.cloud/v3/imaging/input.wmf/wmf?bkColor=gray&pageWidt
 // Get App Key and App SID from https://dashboard.aspose.cloud/
 
 curl -v "https://api.aspose.cloud/connect/token" \
-
 -X POST \
-
 -d 'grant\_type=client\_credentials&client\_id=xxxx&client\_secret=xxxx' \
-
 -H "Content-Type: application/x-www-form-urlencoded" \
-
 -H "Accept: application/json"
 
 // cURL example to rasterize WMF image to PNG
 
 curl -v "https://api.aspose.cloud/v3/imaging/wmf?bkColor=gray&pageWidth=300&pageHeight=300&borderX=50&borderY=50&format=gif" \
-
 -X POST \
-
 -T input.wmf \
-
 -H "Content-Type: application/json" \
-
 -H "Accept: multipart/form-data" \
-
 -H "Authorization: Bearer <jwt token>" \
-
 -o input\_out.gif
 
 ```

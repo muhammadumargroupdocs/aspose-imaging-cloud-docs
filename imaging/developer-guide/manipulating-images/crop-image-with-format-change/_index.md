@@ -32,27 +32,18 @@ With [Swagger UI](https://apireference.aspose.cloud/imaging/#/Crop/CropImage) yo
 // Get App Key and App SID from https://dashboard.aspose.cloud/
 
 curl -v "https://api.aspose.cloud/connect/token" \
-
 -X POST \
-
 -d 'grant\_type=client\_credentials&client\_id=xxxx&client\_secret=xxxx' \
-
 -H "Content-Type: application/x-www-form-urlencoded" \
-
 -H "Accept: application/json"
 
 // cURL example to crop an image
 
 curl -v "https://api.aspose.cloud/v3/imaging/WaterMark.bmp/crop?format=png&x=10&y=10&width=400&height=400" \
-
 -X GET \
-
 -H "Content-Type: application/json" \
-
 -H "Accept: multipart/form-data" \
-
 -H "Authorization: Bearer <jwt token>" \
-
 -o WaterMark\_out.png
 
 ```
@@ -84,29 +75,19 @@ curl -v "https://api.aspose.cloud/v3/imaging/WaterMark.bmp/crop?format=png&x=10&
 // Get App Key and App SID from https://dashboard.aspose.cloud/
 
 curl -v "https://api.aspose.cloud/connect/token" \
-
 -X POST \
-
 -d 'grant\_type=client\_credentials&client\_id=xxxx&client\_secret=xxxx' \
-
 -H "Content-Type: application/x-www-form-urlencoded" \
-
 -H "Accept: application/json"
 
 // cURL example to crop an image
 
 curl -v "https://api.aspose.cloud/v3/imaging/crop?format=png&x=10&y=10&width=400&height=400" \
-
 -X POST \
-
 -T WaterMark.bmp \
-
 -H "Content-Type: application/json" \
-
 -H "Accept: application/json" \
-
 -H "Authorization: Bearer <jwt token>" \
-
 -o WaterMark\_out.png
 
 ```

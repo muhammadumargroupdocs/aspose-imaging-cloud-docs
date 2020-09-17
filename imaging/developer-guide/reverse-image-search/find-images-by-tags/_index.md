@@ -19,17 +19,12 @@ The API URL is: [POST /imaging/ai/imageSearch/{searchContextId}/findByTags](http
 ```java
 
 // First get Access Token
-
 // Get App Key and App SID from https://dashboard.aspose.cloud/
 
 curl -v "https://api.aspose.cloud/oauth2/token" \
-
 -X POST \
-
 -d 'grant\_type=client\_credentials&client\_id=xxxx&client\_secret=xxxx' \
-
 -H "Content-Type: application/x-www-form-urlencoded" \
-
 -H "Accept: application/json"
 
 
@@ -37,15 +32,10 @@ curl -v "https://api.aspose.cloud/oauth2/token" \
 // cURL example to find images by tags
 
 curl -v "https://api.aspose.cloud/v2/imaging/ai/imageSearch/cc435948-2dc3-4269-9299-052baa314d72/findByTags?similarityThreshold=90.0&maxCount=10" \
-
 -X POST \
-
 -d '["MyTag"]' \
-
 -H "Content-Type: application/json" \
-
 -H "Accept: multipart/form-data" \
-
 -H "Authorization: Bearer <access\_token>"
 
 ```

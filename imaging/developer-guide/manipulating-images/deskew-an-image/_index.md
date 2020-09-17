@@ -33,27 +33,18 @@ Please check Common Operations Format Support Map to know the supported conversi
 // Get App Key and App SID from https://dashboard.aspose.cloud/
 
 curl -v "https://api.aspose.cloud/connect/token" \
-
 -X POST \
-
 -d 'grant\_type=client\_credentials&client\_id=xxxx&client\_secret=xxxx' \
-
 -H "Content-Type: application/x-www-form-urlencoded" \
-
 -H "Accept: application/json"
 
 // cURL example to deskew an image
 
 curl -v "https://api.aspose.cloud/v3/imaging/WaterMark.bmp/deskew" \
-
 -X GET \
-
 -H "Content-Type: application/json" \
-
 -H "Accept: application/json" \
-
 -H "Authorization: Bearer " \
-
 -o WaterMark\_out.pdf
 
 ```
@@ -85,29 +76,19 @@ curl -v "https://api.aspose.cloud/v3/imaging/WaterMark.bmp/deskew" \
 // Get App Key and App SID from https://dashboard.aspose.cloud/
 
 curl -v "https://api.aspose.cloud/connect/token" \
-
 -X POST \
-
 -d 'grant\_type=client\_credentials&client\_id=xxxx&client\_secret=xxxx' \
-
 -H "Content-Type: application/x-www-form-urlencoded" \
-
 -H "Accept: application/json"
 
 // cURL example to deskew an existing image
 
 curl -v "https://api.aspose.cloud/v3/imaging/deskew" \
-
 -X POST \
-
 -T WaterMark.bmp \
-
 -H "Content-Type: application/json" \
-
 -H "Accept: multipart/form-data" \
-
 -H "Authorization: Bearer <jwt token>" \
-
 -o WaterMark\_out.png
 
 ```

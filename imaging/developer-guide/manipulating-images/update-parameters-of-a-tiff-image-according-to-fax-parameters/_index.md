@@ -21,27 +21,18 @@ This article explains how to update the parameters of an existing TIFF image acc
 // Get App Key and App SID from https://dashboard.aspose.cloud/
 
 curl -v "https://api.aspose.cloud/connect/token" \
-
 -X POST \
-
 -d 'grant\_type=client\_credentials&client\_id=&client\_secret=' \
-
 -H "Content-Type: application/x-www-form-urlencoded" \
-
 -H "Accept: application/json"
 
 // cURL example to update parameters of existing TIFF image according to fax parameters
 
 curl -v "https://api.aspose.cloud/v3/imaging/tiff/Sample.tiff/toFax" \
-
 -X GET \
-
 -H "Content-Type: application/json" \
-
 -H "Accept: multipart/form-data" \
-
 -H "Authorization: Bearer <jwt token>" \
-
 -o sample\_fax.tiff
 
 ```

@@ -32,27 +32,18 @@ With [Swagger UI](https://apireference.aspose.cloud/imaging/#/Resize) you can ca
 // Get App Key and App SID from https://dashboard.aspose.cloud/
 
 curl -v "https://api.aspose.cloud/connect/token" \
-
 -X POST \
-
 -d 'grant\_type=client\_credentials&client\_id=xxxx&client\_secret=xxxx' \
-
 -H "Content-Type: application/x-www-form-urlencoded" \
-
 -H "Accept: application/json"
 
 // cURL example to resize an image
 
 curl -v "https://api.aspose.cloud/v3/imaging/WaterMark.bmp/resize?format=pdf&newWidth=400&newHeight=400" \
-
 -X GET \
-
 -H "Content-Type: application/json" \
-
 -H "Accept: application/json" \
-
 -H "Authorization: Bearer <jwt token>" \
-
 -o WaterMark\_out.pdf
 
 ```
@@ -84,29 +75,19 @@ curl -v "https://api.aspose.cloud/v3/imaging/WaterMark.bmp/resize?format=pdf&new
 // Get App Key and App SID from https://dashboard.aspose.cloud/
 
 curl -v "https://api.aspose.cloud/connect/token" \
-
 -X POST \
-
 -d 'grant\_type=client\_credentials&client\_id=xxxx&client\_secret=xxxx' \
-
 -H "Content-Type: application/x-www-form-urlencoded" \
-
 -H "Accept: application/json"
 
 // cURL example to resize an image
 
 curl -v "https://api.aspose.cloud/v3/imaging/resize?format=pdf&newWidth=400&newHeight=400" \
-
 -X POST \
-
 -T WaterMark.bmp \
-
 -H "Content-Type: application/json" \
-
 -H "Accept: application/json" \
-
 -H "Authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYmYiOjE1NTY3OTc0MzQsImV4cCI6MTU1Njg4MzgzNCwiaXNzIjoiaHR0cHM6Ly9hcGkuYXNwb3NlLmNsb3VkIiwiYXVkIjpbImh0dHBzOi8vYXBpLmFzcG9zZS5jbG91ZC9yZXNvdXJjZXMiLCJhcGkucGxhdGZvcm0iLCJhcGkucHJvZHVjdHMiXSwiY2xpZW50X2lkIjoiQjAxQTE1RTUtMUI4My00QjlBLThFQjMtMEYyQkZBNkFDNzY2Iiwic2NvcGUiOlsiYXBpLnBsYXRmb3JtIiwiYXBpLnByb2R1Y3RzIl19.Z2JrRPVvfRgbpER0tgz2216pSVLr\_2OLFfUtniyIHGz3EXkDCE\_Mo3EeY\_vavhp5xU2q7H6UDaHILxl86ZZs\_1gBEvRaEIbTrh65HjWafH61GReFgXyUYWIYjJK6C428KEU1as4yZNn98StB8X9lFGor4s6aGwhzbJQsowSKJb3eH\_3nmcmfw1OgvJVLSUw8yf9VI\_2Jfj6\_qqzp-ICNvMGMnJAfZkcp0PP3KtzXytf-bQFnwFpvdSKBwbm03kaYbSwdMnPDKLG1OwWXx5bkIpaRL9SuvqDs8Bmy3gjylJdOUB7\_OlB2dCVrSa-e46TBvOjxHJsPpe0S6MuI0POmow" \
-
 -o WaterMark\_out.pdf
 
 ```

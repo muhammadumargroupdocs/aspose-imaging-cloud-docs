@@ -30,27 +30,18 @@ With [Swagger UI](https://apireference.aspose.cloud/imaging/#/WebP) you can call
 // Get App Key and App SID from https://dashboard.aspose.cloud/
 
 curl -v "https://api.aspose.cloud/connect/token" \
-
 -X POST \
-
 -d 'grant\_type=client\_credentials&client\_id=xxxx&client\_secret=xxxx' \
-
 -H "Content-Type: application/x-www-form-urlencoded" \
-
 -H "Accept: application/json"
 
 // cURL example to update parameters of existing WEBP image
 
 curl -v "https://api.aspose.cloud/v3/imaging/asposelogo.webp/webp?lossless=true&quality=90&animLoopCount=5&animBackgroundColor=gray" \
-
 -X GET \
-
 -H "Content-Type: application/json" \
-
 -H "Accept: multipart/form-data" \
-
 -H "Authorization: Bearer <jwt token>" \
-
 -o asposelogo\_out.webp
 
 ```
@@ -82,29 +73,19 @@ curl -v "https://api.aspose.cloud/v3/imaging/asposelogo.webp/webp?lossless=true&
 // Get App Key and App SID from https://dashboard.aspose.cloud/
 
 curl -v "https://api.aspose.cloud/connect/token" \
-
 -X POST \
-
 -d 'grant\_type=client\_credentials&client\_id=xxxx&client\_secret=xxxx' \
-
 -H "Content-Type: application/x-www-form-urlencoded" \
-
 -H "Accept: application/json"
 
 // cURL example to update parameters of existing WEBP image
 
 curl -v "https://api.aspose.cloud/v3/imaging/webp?lossless=true&quality=90&animLoopCount=5&animBackgroundColor=gray" \
-
 -X POST \
-
 -T asposelogo.webp \
-
 -H "Content-Type: application/json" \
-
 -H "Accept: multipart/form-data" \
-
 -H "Authorization: Bearer <jwt token>" \
-
 -o asposelogo\_out.webp
 
 ```

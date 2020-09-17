@@ -21,17 +21,12 @@ Search context is a special object which store features index structure and some
 ```java
 
 // First get Access Token
-
 // Get App Key and App SID from https://dashboard.aspose.cloud/
 
 curl -v "https://api.aspose.cloud/oauth2/token" \
-
 -X POST \
-
 -d 'grant\_type=client\_credentials&client\_id=xxxx&client\_secret=xxxx' \
-
 -H "Content-Type: application/x-www-form-urlencoded" \
-
 -H "Accept: application/json"
 
 
@@ -39,15 +34,10 @@ curl -v "https://api.aspose.cloud/oauth2/token" \
 // cURL example to create new search context
 
 curl -v "https://api.aspose.cloud/v2/imaging/ai/imageSearch/create" \
-
 -X POST \
-
 -H "Content-Type: application/json" \
-
 -H "Accept: application/json" \
-
 -H "Content-Length: 0" \
-
 -H "Authorization: Bearer <access\_token>"
 
 ```

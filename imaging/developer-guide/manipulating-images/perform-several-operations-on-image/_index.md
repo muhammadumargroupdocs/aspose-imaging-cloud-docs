@@ -30,27 +30,18 @@ On the other hand, with the second API, you can directly pass the image in the r
 // Get App Key and App SID from https://dashboard.aspose.cloud/
 
 curl -v "https://api.aspose.cloud/connect/token" \
-
 -X POST \
-
 -d 'grant\_type=client\_credentials&client\_id=xxxx&client\_secret=xxxx' \
-
 -H "Content-Type: application/x-www-form-urlencoded" \
-
 -H "Accept: application/json"
 
 // cURL example to perform scaling, cropping and flipping of an existing image in a single request
 
 curl -v "https://api.aspose.cloud/v3/imaging/Sample.psd/updateImage?format=png&newWidth=300&newHeight=300&x=10&y=10&rectWidth=200&rectHeight=200&rotateFlipMethod=Rotate90FlipX" \
-
 -X GET \
-
 -H "Content-Type: application/json" \
-
 -H "Accept: multipart/form-data" \
-
 -H "Authorization: Bearer <jwt token>" \
-
 -o Sample\_out.png
 
 ```
@@ -82,29 +73,19 @@ curl -v "https://api.aspose.cloud/v3/imaging/Sample.psd/updateImage?format=png&n
 // Get App Key and App SID from https://dashboard.aspose.cloud/
 
 curl -v "https://api.aspose.cloud/connect/token" \
-
 -X POST \
-
 -d 'grant\_type=client\_credentials&client\_id=xxxx&client\_secret=xxxx' \
-
 -H "Content-Type: application/x-www-form-urlencoded" \
-
 -H "Accept: application/json"
 
 // cURL example to perform scaling, cropping and flipping of an existing image in a single request
 
 curl -v "https://api.aspose.cloud/v3/imaging/updateImage?format=png&newWidth=300&newHeight=300&x=10&y=10&rectWidth=200&rectHeight=200&rotateFlipMethod=Rotate90FlipX" \
-
 -X POST \
-
 -T Sample.psd \
-
 -H "Content-Type: application/json" \
-
 -H "Accept: multipart/form-data" \
-
 -H "Authorization: Bearer <jwt token>" \
-
 -o Sample\_out.png
 
 ```

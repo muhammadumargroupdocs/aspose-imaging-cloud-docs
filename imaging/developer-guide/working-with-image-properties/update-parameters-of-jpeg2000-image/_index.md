@@ -30,27 +30,18 @@ With [Swagger UI](https://apireference.aspose.cloud/imaging/#/Jpeg2000) you can 
 // Get App Key and App SID from https://dashboard.aspose.cloud/
 
 curl -v "https://api.aspose.cloud/connect/token" \
-
 -X POST \
-
 -d 'grant\_type=client\_credentials&client\_id=xxxx&client\_secret=xxxx' \
-
 -H "Content-Type: application/x-www-form-urlencoded" \
-
 -H "Accept: application/json"
 
 // cURL example to update parameters of JPEG2000 image
 
 curl -v "https://api.aspose.cloud/v3/imaging/sample.jp2/jpg2000?codec=jp2&comment=Aspose" \
-
 -X GET \
-
 -H "Content-Type: application/json" \
-
 -H "Accept: multipart/form-data" \
-
 -H "Authorization: Bearer <jwt token>" \
-
 -o Sample\_out.jp2
 
 ```
@@ -82,29 +73,19 @@ curl -v "https://api.aspose.cloud/v3/imaging/sample.jp2/jpg2000?codec=jp2&commen
 // Get App Key and App SID from https://dashboard.aspose.cloud/
 
 curl -v "https://api.aspose.cloud/connect/token" \
-
 -X POST \
-
 -d 'grant\_type=client\_credentials&client\_id=xxxx&client\_secret=xxxx' \
-
 -H "Content-Type: application/x-www-form-urlencoded" \
-
 -H "Accept: application/json"
 
 // cURL example to update parameters of JPEG2000 image
 
 curl -v "https://api.aspose.cloud/v3/imaging/jpg2000?codec=jp2&comment=Aspose" \
-
 -X POST \
-
 -T sample.jp2 \
-
 -H "Content-Type: application/json" \
-
 -H "Accept: multipart/form-data" \
-
 -H "Authorization: Bearer <jwt token>" \
-
 -o Sample\_out.jp2
 
 ```
