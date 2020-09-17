@@ -25,7 +25,7 @@ Search context is a special object which store features index structure and some
 
 curl -v "https://api.aspose.cloud/oauth2/token" \
 -X POST \
--d 'grant\_type=client\_credentials&client\_id=xxxx&client\_secret=xxxx' \
+-d 'grant_type=client_credentials&client_id=xxxx&client_secret=xxxx' \
 -H "Content-Type: application/x-www-form-urlencoded" \
 -H "Accept: application/json"
 
@@ -38,7 +38,7 @@ curl -v "https://api.aspose.cloud/v2/imaging/ai/imageSearch/create" \
 -H "Content-Type: application/json" \
 -H "Accept: application/json" \
 -H "Content-Length: 0" \
--H "Authorization: Bearer <access\_token>"
+-H "Authorization: Bearer <access_token>"
 
 ```
 

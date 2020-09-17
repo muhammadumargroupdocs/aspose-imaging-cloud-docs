@@ -24,7 +24,7 @@ The API takes an image name as a path in the URL, therefore, you first need to u
 
 curl -v "https://api.aspose.cloud/connect/token" \
 -X POST \
--d 'grant\_type=client\_credentials&client\_id=xxxx&client\_secret=xxxx' \
+-d 'grant_type=client_credentials&client_id=xxxx&client_secret=xxxx' \
 -H "Content-Type: application/x-www-form-urlencoded" \
 -H "Accept: application/json"
 
@@ -35,7 +35,7 @@ curl -v "https://api.aspose.cloud/v3/imaging/sample.gif/gif?backgroundColorIndex
 -H "Content-Type: application/json" \
 -H "Accept: multipart/form-data" \
 -H "Authorization: Bearer <jwt token>" \
--o sample\_out.gif
+-o sample_out.gif
 
 ```
 

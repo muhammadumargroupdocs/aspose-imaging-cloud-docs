@@ -34,7 +34,7 @@ Please check Common Operations Format Support Map to know the supported conversi
 
 curl -v "https://api.aspose.cloud/connect/token" \
 -X POST \
--d 'grant\_type=client\_credentials&client\_id=xxxx&client\_secret=xxxx' \
+-d 'grant_type=client_credentials&client_id=xxxx&client_secret=xxxx' \
 -H "Content-Type: application/x-www-form-urlencoded" \
 -H "Accept: application/json"
 
@@ -45,7 +45,7 @@ curl -v "https://api.aspose.cloud/v3/imaging/WaterMark.bmp/grayscale" \
 -H "Content-Type: application/json" \
 -H "Accept: application/json" \
 -H "Authorization: Bearer " \
--o WaterMark\_out.pdf
+-o WaterMark_out.pdf
 
 ```
 
@@ -77,7 +77,7 @@ curl -v "https://api.aspose.cloud/v3/imaging/WaterMark.bmp/grayscale" \
 
 curl -v "https://api.aspose.cloud/connect/token" \
 -X POST \
--d 'grant\_type=client\_credentials&client\_id=xxxx&client\_secret=xxxx' \
+-d 'grant_type=client_credentials&client_id=xxxx&client_secret=xxxx' \
 -H "Content-Type: application/x-www-form-urlencoded" \
 -H "Accept: application/json"
 
@@ -89,7 +89,7 @@ curl -v "https://api.aspose.cloud/v3/imaging/grayscale" \
 -H "Content-Type: application/json" \
 -H "Accept: multipart/form-data" \
 -H "Authorization: Bearer <jwt token>" \
--o WaterMark\_out.png
+-o WaterMark_out.png
 
 ```
 

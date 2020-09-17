@@ -23,7 +23,7 @@ The API URL is: [POST /imaging/ai/imageSearch/{searchContextId}/addTag](https://
 
 curl -v "https://api.aspose.cloud/oauth2/token" \
 -X POST \
--d 'grant\_type=client\_credentials&client\_id=xxxx&client\_secret=xxxx' \
+-d 'grant_type=client_credentials&client_id=xxxx&client_secret=xxxx' \
 -H "Content-Type: application/x-www-form-urlencoded" \
 -H "Accept: application/json"
 
@@ -33,10 +33,10 @@ curl -v "https://api.aspose.cloud/oauth2/token" \
 
 curl -v "https://api.aspose.cloud/v2/imaging/ai/imageSearch/cc435948-2dc3-4269-9299-052baa314d72/addTag?tagName=MyTag" \
 -X POST \
--T aspose\_logo.png \
+-T aspose_logo.png \
 -H "Content-Type: application/json" \
 -H "Accept: multipart/form-data" \
--H "Authorization: Bearer <access\_token>"
+-H "Authorization: Bearer <access_token>"
 
 ```
 

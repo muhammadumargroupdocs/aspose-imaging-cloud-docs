@@ -9,7 +9,7 @@ Another way to use Aspose Object Detection API is to detect undesired object in 
 
 
 
-![todo:image\_alt\_text](detect-undesired-objects_1.jpeg)
+![todo:image_alt_text](detect-undesired-objects_1.jpeg)
 
 
 

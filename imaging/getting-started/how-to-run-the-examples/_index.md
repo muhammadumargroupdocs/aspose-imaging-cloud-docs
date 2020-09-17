@@ -5,7 +5,7 @@ url: /how-to-run-the-examples/
 weight: 50
 ---
 
-![todo:image\_alt\_text](/plugins/servlet/confluence/placeholder/unknown-macro)
+![todo:image_alt_text](/plugins/servlet/confluence/placeholder/unknown-macro)
 ## **Running Aspose.Cloud Examples**
 All examples of Aspose.Imaging Cloud are hosted on [Github](https://github.com/aspose-imaging-cloud). Examples are located in the **Examples** folder.
 ## **Contribute**

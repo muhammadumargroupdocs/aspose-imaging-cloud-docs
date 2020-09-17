@@ -31,7 +31,7 @@ With [Swagger UI](https://apireference.aspose.cloud/imaging/#/Jpeg2000) you can 
 
 curl -v "https://api.aspose.cloud/connect/token" \
 -X POST \
--d 'grant\_type=client\_credentials&client\_id=xxxx&client\_secret=xxxx' \
+-d 'grant_type=client_credentials&client_id=xxxx&client_secret=xxxx' \
 -H "Content-Type: application/x-www-form-urlencoded" \
 -H "Accept: application/json"
 
@@ -42,7 +42,7 @@ curl -v "https://api.aspose.cloud/v3/imaging/sample.jp2/jpg2000?codec=jp2&commen
 -H "Content-Type: application/json" \
 -H "Accept: multipart/form-data" \
 -H "Authorization: Bearer <jwt token>" \
--o Sample\_out.jp2
+-o Sample_out.jp2
 
 ```
 
@@ -74,7 +74,7 @@ curl -v "https://api.aspose.cloud/v3/imaging/sample.jp2/jpg2000?codec=jp2&commen
 
 curl -v "https://api.aspose.cloud/connect/token" \
 -X POST \
--d 'grant\_type=client\_credentials&client\_id=xxxx&client\_secret=xxxx' \
+-d 'grant_type=client_credentials&client_id=xxxx&client_secret=xxxx' \
 -H "Content-Type: application/x-www-form-urlencoded" \
 -H "Accept: application/json"
 
@@ -86,7 +86,7 @@ curl -v "https://api.aspose.cloud/v3/imaging/jpg2000?codec=jp2&comment=Aspose" \
 -H "Content-Type: application/json" \
 -H "Accept: multipart/form-data" \
 -H "Authorization: Bearer <jwt token>" \
--o Sample\_out.jp2
+-o Sample_out.jp2
 
 ```
 

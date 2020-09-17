@@ -33,7 +33,7 @@ With [Swagger UI](https://apireference.aspose.cloud/imaging/#/Resize) you can ca
 
 curl -v "https://api.aspose.cloud/connect/token" \
 -X POST \
--d 'grant\_type=client\_credentials&client\_id=xxxx&client\_secret=xxxx' \
+-d 'grant_type=client_credentials&client_id=xxxx&client_secret=xxxx' \
 -H "Content-Type: application/x-www-form-urlencoded" \
 -H "Accept: application/json"
 
@@ -44,7 +44,7 @@ curl -v "https://api.aspose.cloud/v3/imaging/WaterMark.bmp/resize?format=pdf&new
 -H "Content-Type: application/json" \
 -H "Accept: application/json" \
 -H "Authorization: Bearer <jwt token>" \
--o WaterMark\_out.pdf
+-o WaterMark_out.pdf
 
 ```
 
@@ -76,7 +76,7 @@ curl -v "https://api.aspose.cloud/v3/imaging/WaterMark.bmp/resize?format=pdf&new
 
 curl -v "https://api.aspose.cloud/connect/token" \
 -X POST \
--d 'grant\_type=client\_credentials&client\_id=xxxx&client\_secret=xxxx' \
+-d 'grant_type=client_credentials&client_id=xxxx&client_secret=xxxx' \
 -H "Content-Type: application/x-www-form-urlencoded" \
 -H "Accept: application/json"
 
@@ -87,8 +87,8 @@ curl -v "https://api.aspose.cloud/v3/imaging/resize?format=pdf&newWidth=400&newH
 -T WaterMark.bmp \
 -H "Content-Type: application/json" \
 -H "Accept: application/json" \
--H "Authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYmYiOjE1NTY3OTc0MzQsImV4cCI6MTU1Njg4MzgzNCwiaXNzIjoiaHR0cHM6Ly9hcGkuYXNwb3NlLmNsb3VkIiwiYXVkIjpbImh0dHBzOi8vYXBpLmFzcG9zZS5jbG91ZC9yZXNvdXJjZXMiLCJhcGkucGxhdGZvcm0iLCJhcGkucHJvZHVjdHMiXSwiY2xpZW50X2lkIjoiQjAxQTE1RTUtMUI4My00QjlBLThFQjMtMEYyQkZBNkFDNzY2Iiwic2NvcGUiOlsiYXBpLnBsYXRmb3JtIiwiYXBpLnByb2R1Y3RzIl19.Z2JrRPVvfRgbpER0tgz2216pSVLr\_2OLFfUtniyIHGz3EXkDCE\_Mo3EeY\_vavhp5xU2q7H6UDaHILxl86ZZs\_1gBEvRaEIbTrh65HjWafH61GReFgXyUYWIYjJK6C428KEU1as4yZNn98StB8X9lFGor4s6aGwhzbJQsowSKJb3eH\_3nmcmfw1OgvJVLSUw8yf9VI\_2Jfj6\_qqzp-ICNvMGMnJAfZkcp0PP3KtzXytf-bQFnwFpvdSKBwbm03kaYbSwdMnPDKLG1OwWXx5bkIpaRL9SuvqDs8Bmy3gjylJdOUB7\_OlB2dCVrSa-e46TBvOjxHJsPpe0S6MuI0POmow" \
--o WaterMark\_out.pdf
+-H "Authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYmYiOjE1NTY3OTc0MzQsImV4cCI6MTU1Njg4MzgzNCwiaXNzIjoiaHR0cHM6Ly9hcGkuYXNwb3NlLmNsb3VkIiwiYXVkIjpbImh0dHBzOi8vYXBpLmFzcG9zZS5jbG91ZC9yZXNvdXJjZXMiLCJhcGkucGxhdGZvcm0iLCJhcGkucHJvZHVjdHMiXSwiY2xpZW50X2lkIjoiQjAxQTE1RTUtMUI4My00QjlBLThFQjMtMEYyQkZBNkFDNzY2Iiwic2NvcGUiOlsiYXBpLnBsYXRmb3JtIiwiYXBpLnByb2R1Y3RzIl19.Z2JrRPVvfRgbpER0tgz2216pSVLr_2OLFfUtniyIHGz3EXkDCE_Mo3EeY_vavhp5xU2q7H6UDaHILxl86ZZs_1gBEvRaEIbTrh65HjWafH61GReFgXyUYWIYjJK6C428KEU1as4yZNn98StB8X9lFGor4s6aGwhzbJQsowSKJb3eH_3nmcmfw1OgvJVLSUw8yf9VI_2Jfj6_qqzp-ICNvMGMnJAfZkcp0PP3KtzXytf-bQFnwFpvdSKBwbm03kaYbSwdMnPDKLG1OwWXx5bkIpaRL9SuvqDs8Bmy3gjylJdOUB7_OlB2dCVrSa-e46TBvOjxHJsPpe0S6MuI0POmow" \
+-o WaterMark_out.pdf
 
 ```
 

@@ -44,18 +44,18 @@ On the other hand, with the second API, you can directly pass the image in the r
 
 curl -v "https://api.aspose.cloud/connect/token" \
 -X POST \
--d 'grant\_type=client\_credentials&client\_id=xxxx&client\_secret=xxxx' \
+-d 'grant_type=client_credentials&client_id=xxxx&client_secret=xxxx' \
 -H "Content-Type: application/x-www-form-urlencoded" \
 -H "Accept: application/json"
 
 // cURL example to detect objects an existing image
 
-curl -v "https://api.aspose.cloud/v3/imaging/ai/object\_detection\_image.jpg/visualbounds?method=ssd&threshold=50&includeLabel=true&includeScore=true" \
+curl -v "https://api.aspose.cloud/v3/imaging/ai/object_detection_image.jpg/visualbounds?method=ssd&threshold=50&includeLabel=true&includeScore=true" \
 -X GET \
 -H "Content-Type: application/json" \
 -H "Accept: multipart/form-data" \
 -H "Authorization: Bearer <jwt token>" \
--o object\_detection\_image\_out.jpg
+-o object_detection_image_out.jpg
 
 ```
 
@@ -87,7 +87,7 @@ curl -v "https://api.aspose.cloud/v3/imaging/ai/object\_detection\_image.jpg/vis
 
 curl -v "https://api.aspose.cloud/connect/token" \
 -X POST \
--d 'grant\_type=client\_credentials&client\_id=xxxx&client\_secret=xxxx' \
+-d 'grant_type=client_credentials&client_id=xxxx&client_secret=xxxx' \
 -H "Content-Type: application/x-www-form-urlencoded" \
 -H "Accept: application/json"
 
@@ -95,11 +95,11 @@ curl -v "https://api.aspose.cloud/connect/token" \
 
 curl -v "https://api.aspose.cloud/v3/imaging/ai/visualbounds?method=ssd&threshold=50&includeLabel=true&includeScore=true" \
 -X POST \
--T object\_detection\_image.jpg \
+-T object_detection_image.jpg \
 -H "Content-Type: application/json" \
 -H "Accept: multipart/form-data" \
 -H "Authorization: Bearer <jwt token>" \
--o object\_detection\_image\_out.jpg
+-o object_detection_image_out.jpg
 
 ```
 

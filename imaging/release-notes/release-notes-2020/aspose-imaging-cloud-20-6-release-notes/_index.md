@@ -41,7 +41,7 @@ using (var imageData = File.OpenRead(pathToLocalFile))
 
 **IMAGINGCLOUD-574 Add "allowlabels" and "blocklabels" parameters to object detection api requests**
 
-var SampleImageFileName = "object\_detection\_example.jpg";
+var SampleImageFileName = "object_detection_example.jpg";
 using (FileStream inputImageStream = File.OpenRead(Path.Combine(ExampleImagesFolder, SampleImageFileName)))
 {
     var method = "ssd";

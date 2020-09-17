@@ -24,7 +24,7 @@ You can save updated image on the Cloud Storage by specifying the **outPath**�
 
 curl -v "https://api.aspose.cloud/connect/token" \
 -X POST \
--d 'grant\_type=client\_credentials&client\_id=xxxx&client\_secret=xxxx' \
+-d 'grant_type=client_credentials&client_id=xxxx&client_secret=xxxx' \
 -H "Content-Type: application/x-www-form-urlencoded" \
 -H "Accept: application/json"
 
@@ -36,7 +36,7 @@ curl -v "https://api.aspose.cloud/v3/imaging/bmp?bitsPerPixel=32&horizontalResol
 -H "Content-Type: application/json" \
 -H "Accept: application/json" \
 -H "Authorization: Bearer <jwt token>" \
--o WaterMark\_out.bmp
+-o WaterMark_out.bmp
 
 ```
 

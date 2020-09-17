@@ -5,7 +5,7 @@ url: /available-sdks/
 weight: 40
 ---
 
-![todo:image\_alt\_text](/plugins/servlet/confluence/placeholder/unknown-macro)
+![todo:image_alt_text](/plugins/servlet/confluence/placeholder/unknown-macro)
 # **Aspose.Imaging Cloud SDKs**
 Aspose.Imaging Cloud is to provide the-all new API wrappers (SDKs) for different languages and platforms, which allow using web API features directly from the code.
 ### **Why use an SDK?**

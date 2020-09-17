@@ -22,7 +22,7 @@ This article explains how to update the parameters of an existing TIFF image acc
 
 curl -v "https://api.aspose.cloud/connect/token" \
 -X POST \
--d 'grant\_type=client\_credentials&client\_id=&client\_secret=' \
+-d 'grant_type=client_credentials&client_id=&client_secret=' \
 -H "Content-Type: application/x-www-form-urlencoded" \
 -H "Accept: application/json"
 
@@ -33,7 +33,7 @@ curl -v "https://api.aspose.cloud/v3/imaging/tiff/Sample.tiff/toFax" \
 -H "Content-Type: application/json" \
 -H "Accept: multipart/form-data" \
 -H "Authorization: Bearer <jwt token>" \
--o sample\_fax.tiff
+-o sample_fax.tiff
 
 ```
 

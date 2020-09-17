@@ -23,7 +23,7 @@ The API URL is: [https://apireference.aspose.cloud/imaging/#/SearchContext/Compa
 
 curl -v "https://api.aspose.cloud/oauth2/token" \
 -X POST \
--d 'grant\_type=client\_credentials&client\_id=xxxx&client\_secret=xxxx' \
+-d 'grant_type=client_credentials&client_id=xxxx&client_secret=xxxx' \
 -H "Content-Type: application/x-www-form-urlencoded" \
 -H "Accept: application/json"
 
@@ -31,12 +31,12 @@ curl -v "https://api.aspose.cloud/oauth2/token" \
 
 // cURL example to compare two images
 
-curl -v "https://api.aspose.cloud/v2/imaging/ai/imageSearch/cc435948-2dc3-4269-9299-052baa314d72/compare?imageId1=aspose-logo.jpg&imageId2=aspose\_logo.png" \
+curl -v "https://api.aspose.cloud/v2/imaging/ai/imageSearch/cc435948-2dc3-4269-9299-052baa314d72/compare?imageId1=aspose-logo.jpg&imageId2=aspose_logo.png" \
 -X POST \
 -H "Content-Type: application/json" \
 -H "Accept: multipart/form-data" \
 -H "Content-Length:0" \
--H "Authorization: Bearer <access\_token>"
+-H "Authorization: Bearer <access_token>"
 
 ```
 

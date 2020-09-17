@@ -33,7 +33,7 @@ With [Swagger UI](https://apireference.aspose.cloud/imaging/#/Wmf) you can callÂ
 
 curl -v "https://api.aspose.cloud/connect/token" \
 -X POST \
--d 'grant\_type=client\_credentials&client\_id=xxxx&client\_secret=xxxx' \
+-d 'grant_type=client_credentials&client_id=xxxx&client_secret=xxxx' \
 -H "Content-Type: application/x-www-form-urlencoded" \
 -H "Accept: application/json"
 
@@ -44,7 +44,7 @@ curl -v "https://api.aspose.cloud/v3/imaging/input.wmf/wmf?bkColor=gray&pageWidt
 -H "Content-Type: application/json" \
 -H "Accept: multipart/form-data" \
 -H "Authorization: Bearer <jwt token>" \
--o input\_out.gif
+-o input_out.gif
 
 ```
 
@@ -76,7 +76,7 @@ curl -v "https://api.aspose.cloud/v3/imaging/input.wmf/wmf?bkColor=gray&pageWidt
 
 curl -v "https://api.aspose.cloud/connect/token" \
 -X POST \
--d 'grant\_type=client\_credentials&client\_id=xxxx&client\_secret=xxxx' \
+-d 'grant_type=client_credentials&client_id=xxxx&client_secret=xxxx' \
 -H "Content-Type: application/x-www-form-urlencoded" \
 -H "Accept: application/json"
 
@@ -88,7 +88,7 @@ curl -v "https://api.aspose.cloud/v3/imaging/wmf?bkColor=gray&pageWidth=300&page
 -H "Content-Type: application/json" \
 -H "Accept: multipart/form-data" \
 -H "Authorization: Bearer <jwt token>" \
--o input\_out.gif
+-o input_out.gif
 
 ```
 

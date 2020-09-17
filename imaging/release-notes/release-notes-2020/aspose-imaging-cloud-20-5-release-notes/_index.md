@@ -21,7 +21,7 @@ In this release we have extended export to Dicom and Html5 canvas, added object 
 |IMAGINGCLOUD-531|Fix vulnerabilities for Aspose.Imaging Cloud Java SDK|
 | :- | :- |
 |IMAGINGCLOUD-494|Add object detection and classification feature|
-- fixed vulnerabilities and updated java jdk version to 1.8.0\_251 for Java SDK
+- fixed vulnerabilities and updated java jdk version to 1.8.0_251 for Java SDK
 - supported object detection and classification feature in the all SDKs
 #### **Usage Examples:**
 **IMAGINGCLOUD-515 Extend SaveAs functionality**
@@ -38,7 +38,7 @@ using (var imageData = File.OpenRead(pathToLocalFile))
 
 **IMAGINGCLOUD-494 Add object detection and classification feature**
 
-var SampleImageFileName = "object\_detection\_example.jpg";
+var SampleImageFileName = "object_detection_example.jpg";
 using (FileStream inputImageStream = File.OpenRead(Path.Combine(ExampleImagesFolder, SampleImageFileName)))
 {
     var method = "ssd";

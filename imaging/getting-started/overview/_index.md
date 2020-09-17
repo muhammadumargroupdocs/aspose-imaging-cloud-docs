@@ -5,7 +5,7 @@ url: /overview/
 weight: 10
 ---
 
-![todo:image\_alt\_text](/plugins/servlet/confluence/placeholder/unknown-macro)
+![todo:image_alt_text](/plugins/servlet/confluence/placeholder/unknown-macro)
 ## **Aspose.Imaging Cloud**
 Aspose.Imaging Cloud is a REST-based API which provides the features to manipulate images on the cloud. Aspose.Imaging Cloud provides the most demanding imaging routines such as Re-sizing, Cropping, Rotation, and Conversion. It supports the most common raster file formats including PSD, PNG, JPG, BMP, TIFF, and GIF.
 ### **Features Overview**

@@ -33,7 +33,7 @@ With [Swagger UI](https://apireference.aspose.cloud/imaging/#/SaveAs) you can 
 
 curl -v "https://api.aspose.cloud/connect/token" \
 -X POST \
--d 'grant\_type=client\_credentials&client\_id=xxxx&client\_secret=xxxx' \
+-d 'grant_type=client_credentials&client_id=xxxx&client_secret=xxxx' \
 -H "Content-Type: application/x-www-form-urlencoded" \
 -H "Accept: application/json"
 
@@ -44,7 +44,7 @@ curl -v "https://api.aspose.cloud/v3/imaging/Sample.tiff/frames/range?startFrame
 -H "Content-Type: application/json" \
 -H "Accept: application/json" \
 -H "Authorization: Bearer <jwt token>" \
--o Sample\_out.tiff
+-o Sample_out.tiff
 
 ```
 
@@ -76,7 +76,7 @@ curl -v "https://api.aspose.cloud/v3/imaging/Sample.tiff/frames/range?startFrame
 
 curl -v "https://api.aspose.cloud/connect/token" \
 -X POST \
--d 'grant\_type=client\_credentials&client\_id=xxxx&client\_secret=xxxx' \
+-d 'grant_type=client_credentials&client_id=xxxx&client_secret=xxxx' \
 -H "Content-Type: application/x-www-form-urlencoded" \
 -H "Accept: application/json"
 
@@ -88,7 +88,7 @@ curl -v "https://api.aspose.cloud/v3/imaging/frames/range?startFrameId=1&endFram
 -H "Content-Type: application/json" \
 -H "Accept: application/json" \
 -H "Authorization: Bearer <jwt token>" \
--o Sample\_out.tiff
+-o Sample_out.tiff
 
 ```
 
