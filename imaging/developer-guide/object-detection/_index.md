@@ -14,4 +14,9 @@ Currently, we support 3 image formats (bmp, jpeg, and jpeg2000) and Single Sho
 
 As a result, we can get json object with detected object bounds, labels, and scores or a result image with object bounds and labels on it.
 
+## **Articles in this section**
+- [Detects object and get result as json object](/imaging/detects-object-and-get-result-as-json-object/)
+- [Detects objects and draw it on the image](/imaging/detects-objects-and-draw-it-on-the-image/)
+- [List of available labels](/imaging/list-of-available-labels/)
+
 

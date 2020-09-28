@@ -5,4 +5,3 @@ url: /release-notes-2020/
 weight: 10
 ---
 
-### **Release Notes - 2020**

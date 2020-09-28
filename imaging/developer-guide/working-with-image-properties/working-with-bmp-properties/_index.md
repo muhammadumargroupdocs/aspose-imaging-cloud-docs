@@ -11,5 +11,5 @@ BMP Resource allows to manipulate BMP format specific properties such as color d
 
 {{% /alert %}} 
 ###### **This section includes the following topics:**
-- [Update BMP Image Properties Without Storage](/update-bmp-image-properties-without-storage/)
-- [Update BMP Image Properties](/update-bmp-image-properties/)
+- [Update BMP Image Properties Without Storage](/imaging/update-bmp-image-properties-without-storage/)
+- [Update BMP Image Properties](/imaging/update-bmp-image-properties/)

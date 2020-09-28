@@ -5,5 +5,3 @@ url: /manipulating-images/
 weight: 20
 ---
 
-### **Articles in this section**
-
